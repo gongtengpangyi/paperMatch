@@ -1,0 +1,13 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/GongTengPangYi/Documents/match/c&cpp/test1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/mingw32-make.exe" "cmTC_fb5ef/fast"
+C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fb5ef.dir\build.make CMakeFiles/cmTC_fb5ef.dir/build
+'C:/Users/GongTengPangYi/Documents/c' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+cpp: fatal error: too many input files
+compilation terminated.
+Makefile:125: recipe for target 'cmTC_fb5ef/fast' failed
+mingw32-make.exe: *** [cmTC_fb5ef/fast] Error 1
+
+

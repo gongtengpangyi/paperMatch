@@ -1,0 +1,4 @@
+ToolSet: 5.0@C:\Users\GongTengPangYi\Documents\c&cpp\MinGW
+Options: 
+
+Options:

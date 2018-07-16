@@ -1,0 +1,36 @@
+"C:\Users\GongTengPangYi\Documents\c&cpp\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\GongTengPangYi\Documents\match\c&cpp\test1
+-- The C compiler identification is GNU 6.3.0
+-- The CXX compiler identification is GNU 6.3.0
+-- Check for working C compiler: C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/gcc.exe -- broken
+CMake Error at C:/Users/GongTengPangYi/Documents/c&cpp/CLion 2018.1.2/bin/cmake/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/GongTengPangYi/Documents/match/c&cpp/test1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/mingw32-make.exe" "cmTC_fb5ef/fast"
+    C:/Users/GongTengPangYi/Documents/c&cpp/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fb5ef.dir\build.make CMakeFiles/cmTC_fb5ef.dir/build
+    'C:/Users/GongTengPangYi/Documents/c' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴�
+    鎴栨壒澶勭悊鏂囦欢銆�
+    cpp: fatal error: too many input files
+    compilation terminated.
+    Makefile:125: recipe for target 'cmTC_fb5ef/fast' failed
+    mingw32-make.exe: *** [cmTC_fb5ef/fast] Error 1
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/GongTengPangYi/Documents/match/c&cpp/test1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/GongTengPangYi/Documents/match/c&cpp/test1/cmake-build-debug/CMakeFiles/CMakeError.log".
